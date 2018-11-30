@@ -1,0 +1,44 @@
+.home {
+  
+  padding: 0;
+  /* background-image: url('./bgfitness1.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.home__loading {
+  display: block;
+  margin: 0 auto;
+}
+
+.bannerstore {
+  width: 100%;
+  height: 350px;
+  background-image: url('./bgstore.jpg');
+  background-size: cover;
+  background-position:center;
+  margin: 0;
+  padding: 0;
+}
+
+.bannerbg {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+
+  padding: 0;
+}
+
+h1 {
+  margin:auto;
+  padding-top: 8%;
+  text-align: center;
+  color: white;
+  font-size: 4em;
+}
+
+@media (min-width: 992px) {
+  .home {
+      padding: 0;
+}
+}

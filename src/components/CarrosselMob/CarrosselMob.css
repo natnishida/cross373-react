@@ -1,0 +1,69 @@
+/* css do carrossel em react pelo react slick*/
+
+.bannerCarrossel {
+  /* filter: grayscale(100%); */
+  opacity: 0.6;
+}
+
+.container {
+
+  width: 100%;
+  color: white;
+  background: #940000;
+}
+
+
+.slick-slide img {
+
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 0;
+  width: 100%;
+
+}
+.slick-slide img.slick-loading {
+  border: 0;
+}
+.slick-slider {
+  margin-bottom: -4px;
+}
+.slick-dots {
+  bottom:5%;
+}
+.slick-thumb {
+  bottom: -45px;
+}
+.slick-thumb li {
+  width: 60px;
+  height: 45px;
+}
+.slick-thumb li img {
+  filter: grayscale(100%);
+}
+.slick-thumb li.slick-active img {
+  filter: grayscale(0%);
+}
+
+.slick-vertical .slick-slide {
+  height: 180px;
+}
+
+.slick-prev {
+
+  left: 20px !important;
+}
+.slick-next {
+
+  right: 20px !important;
+}
+
+.slick-list {
+  margin-bottom: -4px;
+}
+
+@media (min-width: 992px) {
+.containermobile {
+  display: none;
+}
+
+}
